@@ -17,11 +17,11 @@ import lombok.Setter;
 @Table(name = "Users")
 public class User {
 
-    @Id
-    private String id;
-
     private String name;
 
+    private String password;
+
+    @Id
     @Column(name = "phone_number")
     private String phoneNumber;
 }
