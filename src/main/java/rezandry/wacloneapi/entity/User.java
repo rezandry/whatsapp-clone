@@ -24,4 +24,10 @@ public class User {
     @Id
     @Column(name = "phone_number")
     private String phoneNumber;
+
+    private String token;
+
+    @Column(name = "token_expired_at")
+    private Long tokenExpiredAt;
+
 }
