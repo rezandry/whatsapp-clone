@@ -1,4 +1,4 @@
-package rezandry.wacloneapi;
+package rezandry.wacloneapi.controller;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
